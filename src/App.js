@@ -11,7 +11,7 @@ function App () {
         <Group title="Items">
           <List>
             <Cell>Hello</Cell>
-            <Cell>World</Cell>
+            <Cell>Lipkin</Cell>
           </List>
         </Group>
       </Panel>
