@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { View, Panel, PanelHeader, Group, List, Cell } from '@vkontakte/vkui';
+import { View, Panel, PanelHeader, Group, List, Cell, Checkbox, FormLayout, Link } from '@vkontakte/vkui';
 import '@vkontakte/vkui/dist/vkui.css';
  
 function App () {
@@ -12,10 +12,16 @@ function App () {
           <List>
             <Cell>Hello</Cell>
             <Cell>Lipkin</Cell>
+            <Cell>и Нурлан</Cell>
           </List>
         </Group>
+	      <FormLayout>
+	        <Checkbox>Я согласен , что я <Link>пидор</Link></Checkbox>
+	        <Checkbox>Я не согласен , что я <Link>пидор</Link></Checkbox>
+	      </FormLayout>
       </Panel>
-    </View>
+  </View>
+
   );
 }
  
